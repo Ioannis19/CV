@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
     padding: 20px;
     background-color: #5288c4;
 }
@@ -92,31 +93,3 @@ ul li::before {
   }
 
 
-/**/
-/* Βασικό στυλ */
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Media query για οθόνες μικρότερες από 768px */
-@media (max-width: 768px) {
-    .profile-image img, .logo img {
-        width: 50px; /* Μείωση του μεγέθους των εικόνων */
-        height: 50px; /* Μείωση του μεγέθους των εικόνων */
-    }
-
-    header h1 {
-        font-size: 20px; /* Μείωση του μεγέθους της γραμματοσειράς */
-    }
-    
-    /* Αλλαγές στο layout για την καλύτερη προσαρμογή */
-    .container {
-        padding: 0 10px;
-    }
-}
